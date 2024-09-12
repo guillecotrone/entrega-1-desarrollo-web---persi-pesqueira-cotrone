@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #fefafc;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.logo a {
+    display: block;
+    padding: 20px 20px;
+    color: #5c1e2c;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: "Rozha One", serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.logo{
+    padding: 20px 20px;
+    color: #5c1e2c; 
+    text-transform: uppercase;
+    font-size: 250px;
+    font-family: "Rozha One", serif;
+    font-style: italic; 
+    text-decoration: none;
+}
+
+.mimenu {
+    display: flex;
+    margin-right: 10px;
+}
+
+.mimenu a{
+    display: block;
+    padding: 20px 20px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.mimenu a:hover{
+    background: #be7d82;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera {
+    height: 60vh;
+    background: url(fotos/bocas.jpeg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.botoncito {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #5c1e2c;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Rozha One", serif;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.botoncito:hover {
+    background: none;
+    border: 2px solid #442e2f;
+    color: #5c1e2c;
+}
+
+.contenido {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 30px;
+    background: #fefafc;
+    white-space: normal;
+    overflow: hidden;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #000;
+    padding: 0 100px;
+}
+
+.boton {
+    display: flex;
+}
+
+#maquillajes{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #66101f;
+}
+#accesorios{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #66101f;
+}
+
+.boton a {
+    margin: 0 10px;
+}
+
+.caja-contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.caja-contenedor .caja {
+    height: 11rem;
+    width: 17rem;
+    background: #fefafc;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 5rem #cf1459(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.caja-contenedor .caja h3 {
+    font-size: 20px;
+    color: #fefafc;
+}
+
+.caja-contenedor .caja p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+
+.subtitulos{
+    font-family: "Rozha One", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #5c1e2c;
+    font-size: 50px;
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+
+}
+
+.product img {
+    width: auto;
+    height: 150px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.product p {
+    margin: 10px 0 0 0;
+    color: #333;
+    text-align: center;
+    font-family: "Lora", serif;
+
+}
+
+
+.product p {
+    margin: 10px 0 0 0;
+    color: #333;
+    font-family: "Lora", serif;
+
+}
+
+#sobre-nosotros{
+    padding: 50px;
+    background-color: #fefafc;
+    text-align: center;
+}
+
+.sobre-nosotros {
+    padding: 50px;
+    background-color: #fefafc;
+    text-align: center;
+}
+
+.sobre-nosotros h2 {
+    font-size: 40px;
+    color: #5c1e2c;
+    margin-bottom: 20px;
+}
+
+.sobre-nosotros p {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.sobre-nosotros img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.sobre-nosotros p {
+    font-family: "Lora"serif;
+    font-size: 20px;  
+    line-height: 1.6;
+    margin-bottom: 20px; 
+  
+    
+}
+
+.imagen-nosotros {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.registrate {
+    padding: 30px;
+    background-image: url(fotos/fotoregis.jpeg);
+    text-align: center;
+}
+
+.registrate h2 {
+    font-size: 40px;
+    color: #5c1e2c;
+    margin-bottom: 20px;
+}
+
+.registrate form {
+    display: inline-block;
+    text-align: left;
+}
+
+.registrate label {
+    font-size: 18px;
+    color: #000;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registrate input,
+.registrate select {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid #c77b7a;
+    border-radius: 2rem;
+    background-color: #fff;
+    height: 3rem;
+}
+
+
+
+footer {
+    padding: 20px;
+    background-color:#b88488;
+    color: #fff;
+    text-align:left;
+}
+
+footer table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer table td {
+    padding: 5px;
+}
+
+footer table img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+footer table p {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Lora", serif;
+    color: #ffffff;
+}
+
+
